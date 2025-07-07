@@ -1,0 +1,202 @@
+body{
+    background-color: #131314 !important;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#FIBIN{
+    color:  #C2FF3F;
+}
+#HOME{
+    color:  #C2FF3F;
+}
+#HOME:hover{
+    text-transform: uppercase;
+    color:#aba9af;
+
+}
+#ABOUT{
+    color:  #C2FF3F;
+}
+#ABOUT:hover{
+    text-transform: uppercase;
+    color:#aba9af;
+}
+#SKILLS{
+    color:  #C2FF3F;
+
+}
+#SKILLS:hover{
+    text-transform: uppercase;
+    color:#aba9af;
+}
+#PORTFOLIO{
+    color:  #C2FF3F;
+}
+#PORTFOLIO:hover{
+    text-transform: uppercase;
+    color:#aba9af;
+}
+#CONTACT{
+    color:  #C2FF3F;
+}
+#CONTACT:hover{
+    text-transform: uppercase;
+    color:#aba9af;
+}
+
+/* body */
+img{
+    display: flex;
+    width: 100px;
+    height: 150;
+    justify-self: center;
+    width: 150px;       
+  height: 150px;        
+  object-fit: cover;   
+  border-radius: 50%;   
+  border: 2px solid #333
+}
+.picture{
+    display: flex;
+    justify-self: center;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 5px rgba(33, 33, 33, 0.7)
+    
+}  
+.picture:hover{
+    box-shadow: 0 0 25px 10px  #C2FF3F;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.class{
+    display: grid;
+    grid-template-rows: repeat(2,100px);
+    justify-content: center;
+    align-items: center;
+    text-decoration: double;
+    color: #C2FF3F;
+    
+}
+#fibin{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+#full{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+   
+    margin-bottom: 100px;
+    height: 10px;
+    
+}
+#about-me{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: xx-large;
+    color: #C2FF3F;
+
+}
+#para>p{
+    color:bisque;
+    text-align: center;
+    text-size-adjust: auto;
+}
+/* skills */
+label{
+    color:#C2FF3F ;
+}
+#ME{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: xx-large;
+    color: #C2FF3F;
+}
+.progress{
+    display: flex;
+    justify-content: end;
+}
+#p1{
+    background-color: aliceblue;
+}
+#p1:hover{
+    background-color: #333;
+    transform: translateX(-1); 
+}
+#pro{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color: #aba9af;
+    justify-content: space-between;
+    
+}
+@media (max-width: 768px){
+    #pro{
+        margin-top: 10%;
+        display: grid;
+        grid-template-columns: 1fr;
+        color: #aba9af;
+        justify-content: space-between;
+      
+    } 
+}
+.card-body{
+    border-radius: 0% !important;
+}
+/* project */
+#Perf
+{
+    display: flex;
+    justify-content: center;
+    
+    font-family: sans-serif;
+    font-size: xx-large;
+    color: #C2FF3F;
+    margin-top: 100px;
+    margin-bottom: 0px;
+
+
+}
+/* conctact1 */
+#co{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: xx-large;
+    position: relative;
+    margin-top: 100px;
+    color: #C2FF3F;
+}
+/* conctact2 */
+.icons{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin-left: 45px;
+
+}
+.icons i{
+    color: rgb(22, 107, 254);
+    font-size: xx-large;
+   
+}
+.last{
+    color: rgb(22, 107, 254);
+    display: flex;
+    justify-content:space-between;
+}
+.insta{
+    display: grid;
+    justify-items: center;
+    align-items: baseline;
+}

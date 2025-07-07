@@ -1,0 +1,221 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+.nav-bar{
+    color: #fff;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+ 
+}
+.logo{
+    width: 60px;
+    padding: 10px;
+    display: flex;
+}
+.image{
+    max-width: 50px;
+}
+.tutorials{
+    width: 130px;
+    cursor: pointer;
+}
+.tuto{
+    padding: 21px;
+    color: black;
+}
+.tuto:hover{
+    background-color: rgb(75, 132, 75);
+    color: white;
+}
+.cetificate{
+    width: 12px;
+}
+.cert{
+    padding: 21px;
+    height: 12px;
+    color: black;
+    cursor: pointer;
+}
+.cert:hover{
+    background-color: rgb(75, 132, 75);
+    color: white;
+}
+.exercices{
+    width: 130px;
+    cursor: pointer;
+}
+.exc{
+    padding: 19px;
+    color: black;
+    cursor: pointer;
+}
+.exc:hover{
+    background-color: rgb(75, 132, 75);
+    color: white;
+    height: 15px;
+}
+.services{
+    width: 130px;
+}
+.ser{
+    padding: 21px;
+    color: black;
+    cursor: pointer;
+}
+.ser:hover{
+    background-color: rgb(75, 132, 75);
+    color: white;
+}
+.search-bar{
+    padding: 10px 8px;
+}
+.search{
+    position: relative;
+    display: block;
+    padding: 10px 8px;
+    float: left;
+    overflow: hidden;
+    width: auto;
+}
+.search-bar input[type="text"]{
+    border-radius: 20px;
+    
+    overflow: hidden;
+    font-size: 13px;
+}
+
+.search-bar button{
+   position: absolute;
+    cursor: pointer;
+    padding: 9px;
+    overflow: hidden;
+    border-radius: 23px;
+    margin-top: 2px;
+    margin-left: -33px;
+    background-color:#fff;
+    border: none;
+}
+.search-bar button:hover{
+    background-color: #d3d3d3;
+}
+.butt-dw{
+    padding: 10px 8px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+.image-dw{
+    max-width: 18px;
+    padding: 9px;
+    border-radius: 25px;
+    display: inline-block;
+}
+.image-dw:hover{
+    background-color: aliceblue;
+}
+.head{
+    height: 35px;
+    background-color: #282A35;
+    display: flex;
+    width: 100%;
+}
+ul{
+    color: #fff;
+    display: inline-block;
+    padding: 7.5px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+}
+ul:hover{
+    color: white;
+    background-color: black;
+}
+.icons-last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    
+}
+  .icon-item{
+    border-radius: 25px;
+    display: flex;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    display: inline-block;
+ }
+ .icon-item:hover{
+    background-color: #f2f2f2;
+ }
+ a.icon-item{
+    padding: 10px;
+ }
+ .fas{
+    color: #9763f6;
+ }
+ a{
+    text-decoration: none;
+    color: black;
+ }
+ .buttons{
+    margin-left: 100px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+    
+ }
+ .button1{
+    padding: 13px;
+    background-color: aqua;
+    border-radius: 25px;
+ }
+ .btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: #04AA6D;
+    color: white;
+    position: relative; 
+    right: 10px;
+    margin-left: -155px;
+    margin-right: 20px;
+    font-size: 10px !important;
+ }
+ .log{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 10px;
+    background-color: #f1f1f1;
+    color: #333;
+    position: relative;
+    right: 25px;
+    padding-left: 10px;
+    margin-right: 25px;
+    size: 15px!important;
+ }
+ .log:hover{
+    background-color: #078a5a;
+    color: #fff;
+ }
+ .btn:hover{
+    background-color: #078a5a;
+ }
+ div>ul {
+    font-size: small;
+ }
+
+
+

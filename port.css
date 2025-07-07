@@ -1,0 +1,41 @@
+.container-fluid{
+    position: sticky;
+    top: 0;
+    background-color: rgb(181, 180, 180);
+}
+body{
+    background-color:rgba(0, 0, 0, 0.76) !important;
+}
+.button{
+    text-decoration: none;
+    color: #C2FF3F;
+    
+}  
+  
+.button:hover{
+    
+    text-transform: capitalize;
+    transition:1s ease-in-out ;
+    color:azure;
+    text-decoration:underline ;
+    transition-property: all;
+}
+.left-top{
+    display: flex;
+    justify-self: flex-start;
+    position: relative;
+    margin-left: 100px;
+    align-items: baseline;
+    color:#C2FF3F ;
+}
+
+.right-top{
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: repeat(5,1fr);
+    position: relative;
+    margin-left: 650px;
+    align-items: baseline;
+    margin-top: 10px;
+}
+

@@ -1,169 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <title>fibin</title>
-    <link rel="icon" type="image/png" href="WhatsApp Image 2025-05-02 at 15.07.00_23ce9467.jpg">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fibin | Frontend Developer</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="WhatsApp Image 2025-05-02 at 15.07.00_23ce9467.jpg">
 </head>
+
 <body>
-    <!-----navbar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#" id="FIBIN">FIBIN</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#fibin" id="HOME">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about-me"id="ABOUT">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#ME" id="SKILLS">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Perf" id="PORTFOLIO">project</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#co" id="CONTACT">Contact</a>
-              </li>
-            </ul>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-3" href="#">Fibin</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="menu">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="d-flex align-items-center text-center bg-dark text-white" style="padding:8rem 0;">
+    <div class="container">
+      <img src="WhatsApp Image 2025-05-02 at 15.07.00_23ce9467.jpg" width="160" class="rounded-circle border border-4 border-light mb-4" alt="Fibin">
+      <h1 class="display-5 fw-bold mb-3">Hi, I'm <span class="text-accent">Fibin</span></h1>
+      <p class="lead mb-4">Frontend Developer Intern | Passionate about clean UI & React.js</p>
+      <a href="#projects" class="btn btn-accent btn-lg">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5 bg-dark text-light">
+    <div class="container text-center">
+      <h2 class="section-title text-accent mb-4">About Me</h2>
+      <p class="lead mx-auto" style="max-width:800px;">
+        My name is <strong>Fibin</strong>, a Plus Two Science student from GHSS Porur. I’m currently interning at <strong>Bridgeon Solutions LLP</strong> as a Frontend Developer, building modern, responsive web applications using <strong>React.js, HTML, CSS, and Bootstrap</strong>. My goal is to grow into a skilled full-stack developer creating elegant, high-performing web apps.
+      </p>
+    </div>
+  </section>
+
+ <!-- Skills Section -->
+<section id="skills" class="py-5 bg-dark text-light">
+  <div class="container text-center">
+    <h2 class="section-title text-accent mb-5">My Skills</h2>
+    <div class="row g-4 justify-content-center">
+      
+      <div class="col-sm-6 col-md-4">
+        <div class="card bg-light text-dark p-4 shadow-sm rounded-4 h-100">
+          <i class="fa-brands fa-html5 fa-3x text-danger mb-3"></i>
+          <h5>HTML</h5>
+          <p>Structure and semantics for modern web apps.</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="card bg-light text-dark p-4 shadow-sm rounded-4 h-100">
+          <i class="fa-brands fa-css3-alt fa-3x text-primary mb-3"></i>
+          <h5>CSS</h5>
+          <p>Clean, responsive, and modern UI styling.</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="card bg-light text-dark p-4 shadow-sm rounded-4 h-100">
+          <i class="fa-brands fa-js fa-3x text-warning mb-3"></i>
+          <h5>JavaScript</h5>
+          <p>Dynamic and interactive front-end experiences.</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="card bg-light text-dark p-4 shadow-sm rounded-4 h-100">
+          <i class="fa-brands fa-react fa-3x text-info mb-3"></i>
+          <h5>React.js</h5>
+          <p>Component-based, high-performance web apps.</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="card bg-light text-dark p-4 shadow-sm rounded-4 h-100">
+          <i class="fa-brands fa-bootstrap fa-3x text-purple mb-3"></i>
+          <h5>Bootstrap</h5>
+          <p>Quick and responsive design framework.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5 bg-dark text-white">
+    <div class="container text-center">
+      <h2 class="section-title text-accent mb-5">Projects</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-sm-6 col-md-4">
+          <div class="card shadow-sm rounded-4">
+            <img src="Screenshot 2025-10-21 114647.png" class="card-img-top" alt="E-Commerce Project">
+            <div class="card-body">
+              <h5 class="card-title">E-Commerce Website</h5>
+              <p class="card-text">Responsive online shopping site using React.js and Bootstrap featuring cart, filter, and checkout systems.</p>
+              <a href="#" class="btn btn-outline-primary btn-sm">View Project</a>
+            </div>
           </div>
         </div>
-      </nav>
-      <!----BODY------>
-      <div  id="body">
-    <div class=picture><img src="WhatsApp Image 2025-05-02 at 15.07.00_23ce9467.jpg" alt=""></div>
-
-</div>
-<div class="class">
-  <div>
-   <p  id="fibin">FIBIN</p>
-  </div>
-  <div>
-    <p  id="full">Full stack developer</p>
-  </div>
-</div>  
-<div >
-    <div ><p id="about-me">ABOUT ME </p></div>
-</div>
-<div  id="para">
-<P>My name is Fibin, a Plus Two student from GHSS Porur. Ive recently begun my journey to become a full stack developer at Bridgeon, Manjeri, where I’ve successfully completed three weeks of training. Although I’m new to the IT field, I’m passionate about learning and fully committed to growing as a developer. I believe that with dedication and continuous effort, I will one day achieve my goal of becoming a skilled and confident developer. </P>
-</div>
-<!-- skills -->
-<div ><p id="ME">SKILLS</p><div>
-  <div class="bar-container">
-  <label>html</label>
-  <div class="bar">
-      <div class="progress" style="width:90%;">90% </div>
-  </div>
-  </div>
-  <label>css</label>
-  <div class="bar">
-      <div class="progress" style="width: 85%;">85% </div>
-  </div>
-  </div><label>js</label>
-  <div class="bar">
-    <div class="progress" style="width:60%">60% </div>
-  </div>
-</div>
-<!-- project -->
-
-<div ><p id="Perf">Projects</p></div>
-
-
-<div class="project" id="pro"  >
-  <div class="card" style="width: 18rem;">
-    <img src="Screenshot 2025-05-03 143116.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">form</h5>
-      <p class="card-text">A form that i created</p>
-      <a href="form.html" class="btn btn-primary">click to see</a>
+      </div>
     </div>
-  </div>
-  
-  <div class="card" style="width: 18rem;" id="sec">
-    <img src="Screenshot 2025-05-03 143153.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">table</h5>
-      <p class="card-text">A table that i created</p>
-      <a href="day 2.html" class="btn btn-primary">click to see</a>
-    </div>
-  </div>
-  
-  <div class="card" style="width: 18rem;" id="third" >
-  
-    <div class="card-body" >
-      <img src="Screenshot 2025-05-03 143242.png" class="card-img-top" alt="...">
-      <h5 class="card-title">navbar</h5>
-      <p class="card-text">A   navbar that i created</p>
-      <a href="day6/day6.html" class="btn btn-primary">click to see</a>
-    </div>
-  </div>
-  
-  <div class="card" style="width: 18rem; position: relative;" id="fourth" >
-    <img src="Screenshot 2025-05-03 143355.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">a sample login page of linkedin</h5>
-      <p class="card-text">A   loginpage that i created</p>
-      <a href="day8/linkdin-login page.html" class="btn btn-primary">click to see</a>
-    </div>
-  </div>
-</div>
-<!-- CONTACT -->
+  </section>
 
-<div ><p id="co">CONTACT</p></div>
-<DIV id="we">
-  <div class="row">
-    <div class="col">
-      <label for="text">First name</label>
-      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-dark text-light">
+    <div class="container text-center">
+      <h2 class="section-title text-accent mb-3">Contact Me</h2>
+      <p class="lead mb-5">Let’s connect and build something amazing together!</p>
+      <div class="row g-4 justify-content-center">
+        <div class="col-lg-6 col-md-8">
+          <div class="contact-card p-4 rounded-4 shadow-sm">
+            <form onsubmit="showAlert(event)">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <input type="text" class="form-control contact-input" placeholder="First Name" required>
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control contact-input" placeholder="Last Name" required>
+                </div>
+              </div>
+              <input type="email" class="form-control contact-input mt-3" placeholder="Email" required>
+              <textarea class="form-control contact-input mt-3" rows="4" placeholder="Your message..." required></textarea>
+              <button type="submit" class="btn btn-accent mt-3 w-100 bg-primary" >Send Message</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-12 mt-4">
+          <a href="https://www.instagram.com/____fib__in/" class="mx-3"><i class="fa-brands fa-instagram fa-2x text-danger"></i></a>
+          <a href="https://github.com/fibin4056x" class="mx-3"><i class="fa-brands fa-github fa-2x text-white"></i></a>
+          <a href="https://www.linkedin.com/in/fibin" class="mx-3"><i class="fa-brands fa-linkedin fa-2x text-info"></i></a>
+        </div>
+      </div>
     </div>
-    <div class="col">
-      <label for="text">Last name</label>
-      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-    </div>
-  </div>
-  <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  </div>
-  <div class="mb-3">
-    <label for="exampleFormControlTextarea1" class="form-label">please provide you thought about this page</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="type something"></textarea>
-  </div>
-</DIV>
+  </section>
 
-<form onsubmit="showAlert(event)">
-  <button type="submit">Submit</button>
-</form>
+  <!-- Footer -->
+  <footer class="py-3 bg-dark text-white text-center">
+    © 2025 Fibin | Built with ❤️ and Bootstrap
+  </footer>
 
-<!-- conctact 2 -->
-<div class="insta" >
-<div>
-  <div class="icons">
-    <a href="https://www.instagram.com/____fib__in/#"><i class="fa-brands fa-instagram"id="insta" ></i></a>
-    <a href=""><i class="fa-brands fa-github fa-2x me-3" id="git"></i></a>
-    <a href=""><i class="fa-brands fa-linkedin"id="linked"></i></a>
-</div>
-<div >
-  <p style="font-size: large; color: aqua;">contact me: through instagram</p>
-</div>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <script src="js/bootstrap.js">
-       function showAlert(event) {
-  event.preventDefault(); 
-  alert("Form submitted successfully!");
-       }
-    </script>
+  <!-- Scripts -->
+  <script>
+    function showAlert(e) {
+      e.preventDefault();
+      alert("✅ Thank you, your message has been sent successfully!");
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

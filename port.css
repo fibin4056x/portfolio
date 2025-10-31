@@ -1,41 +1,93 @@
-.container-fluid{
-    position: sticky;
-    top: 0;
-    background-color: rgb(181, 180, 180);
-}
-body{
-    background-color:rgba(0, 0, 0, 0.76) !important;
-}
-.button{
-    text-decoration: none;
-    color: #C2FF3F;
-    
-}  
-  
-.button:hover{
-    
-    text-transform: capitalize;
-    transition:1s ease-in-out ;
-    color:azure;
-    text-decoration:underline ;
-    transition-property: all;
-}
-.left-top{
-    display: flex;
-    justify-self: flex-start;
-    position: relative;
-    margin-left: 100px;
-    align-items: baseline;
-    color:#C2FF3F ;
+/* ======================= CONTACT SECTION ======================= */
+#contact {
+  background: linear-gradient(135deg, #0a192f, #112240);
+  color: #ccd6f6;
+  padding: 6rem 0;
 }
 
-.right-top{
-    display: grid;
-    column-gap: 30px;
-    grid-template-columns: repeat(5,1fr);
-    position: relative;
-    margin-left: 650px;
-    align-items: baseline;
-    margin-top: 10px;
+#contact .section-title {
+  color: #64ffda;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
 
+#contact p.lead {
+  color: #8892b0;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+}
+
+/* Contact Card */
+.contact-card {
+  background: rgba(17, 34, 64, 0.9);
+  border-radius: 1rem;
+  padding: 2.5rem;
+  box-shadow: 0 0 20px rgba(100, 255, 218, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(100, 255, 218, 0.5);
+}
+
+/* Inputs inside Contact */
+.contact-card .contact-input {
+  background: rgba(10, 25, 47, 0.8);
+  border: 1px solid #64ffda;
+  border-radius: 10px;
+  padding: 12px 15px;
+  color: #ccd6f6;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.contact-card .contact-input::placeholder {
+  color: #8892b0;
+}
+
+.contact-card .contact-input:focus {
+  border-color: #64ffda;
+  box-shadow: 0 0 10px #64ffda;
+  background: rgba(10, 25, 47, 0.9);
+  color: #fff;
+  outline: none;
+}
+
+/* Submit Button */
+.btn-accent {
+  background-color: #64ffda;
+  color: #0a192f;
+  font-weight: bold;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  padding: 0.6rem 1.5rem;
+}
+
+.btn-accent:hover {
+  background-color: #52d7b9;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* Social Icons */
+#contact .socials a {
+  display: inline-block;
+  margin: 0 12px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#contact .socials a:hover {
+  transform: translateY(-5px) scale(1.2);
+}
+
+/* Make Contact Inputs Full Width on Small Screens */
+@media (max-width: 768px) {
+  .contact-card .row.g-3 {
+    flex-direction: column;
+  }
+  .contact-card .col-md-6 {
+    width: 100%;
+  }
+}
